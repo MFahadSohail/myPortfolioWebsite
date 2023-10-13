@@ -133,6 +133,14 @@ export const emacs = async (args?: string[]): Promise<string> => {
   return `you know what? just use vscode.`;
 };
 
+export const hiba = async (args?: string[]): Promise<string> => {
+  return `the love of my life :)`;
+};
+
+export const loml = async (args?: string[]): Promise<string> => {
+  return `hiba halani :)`;
+};
+
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
