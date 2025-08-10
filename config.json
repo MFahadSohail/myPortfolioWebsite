@@ -1,21 +1,20 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/goodkidali/goodkidali/master/README.md",
+  "readmeUrl": "https://raw.githubusercontent.com/MFahadSohail/myPortfolioWebsite/main/README.md",
   "title": "Muhammad Fahad Sohail",
-  "name": "Ali Saheb",
+  "name": "Muhammad Fahad Sohail",
   "ascii": "Welcome!",
   "social": {
-    "github": "goodkidali",
-    "linkedin": "ali-software"
+    "github": "MFahadSohail",
+    "linkedin": "muhammad-fahad-sohail"
   },
-  "email": "alisaheb@my.yorku.ca",
-  "ps1_hostname": "alisaheb",
+  "email": "fahadsohail1501@gmail.com",
+  "ps1_hostname": "MFahadSohail",
   "ps1_username": "guest",
-  "repo": "https://github.com/goodkidali/PersonalWebsite",
-  "resume_url": "https://github.com/goodkidali/goodkidali/blob/main/Ali_Saheb_Resume.pdf",
+  "repo": "https://github.com/MFahadSohail/myPortfolioWebsite",
+  "resume_url": "https://github.com/MFahadSohail/myPortfolioWebsite/blob/main/Muhammad_Fahad_Sohail_Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/alisaheb",
+    "paypal": "",
     "patreon": ""
-
   },
   "colors": {
     "light": {
