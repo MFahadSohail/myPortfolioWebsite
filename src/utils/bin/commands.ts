@@ -35,7 +35,9 @@ Welcome to my website!
 More about me:
 'sumfetch' - short summary.
 'resume' - my latest resume.
-'readme' - my github readme.`;
+'LinkedIn' - my linkedIn account.
+'readme' - my github readme.
+'github' - my projects`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -101,16 +103,15 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `404
+not_found
+why_are_you_here
+go_back
+seriously_stop`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `You can’t see directories because this isn’t a real terminal, you know?`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -142,14 +143,19 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 export const banner = (args?: string[]): string => {
   return `
-   █████╗ ██╗     ██╗    ███████╗ █████╗ ██╗  ██╗███████╗██████╗ 
-  ██╔══██╗██║     ██║    ██╔════╝██╔══██╗██║  ██║██╔════╝██╔══██╗
-  ███████║██║     ██║    ███████╗███████║███████║█████╗  ██████╔╝
-  ██╔══██║██║     ██║    ╚════██║██╔══██║██╔══██║██╔══╝  ██╔══██╗
-  ██║  ██║███████╗██║    ███████║██║  ██║██║  ██║███████╗██████╔╝
-  ╚═╝  ╚═╝╚══════╝╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═════╝ 
 
-<h1 class="text-dark-red">welcome to my personal website :)</h1> 
+ ███▄ ▄███▓          █████▒ ▄▄▄       ██░ ██  ▄▄▄      ▓█████▄      ██████  ▒█████   ██░ ██  ▄▄▄       ██▓ ██▓    
+▓██▒▀█▀ ██▒        ▓██   ▒ ▒████▄    ▓██░ ██▒▒████▄    ▒██▀ ██▌   ▒██    ▒ ▒██▒  ██▒▓██░ ██▒▒████▄    ▓██▒▓██▒    
+▓██    ▓██░        ▒████ ░ ▒██  ▀█▄  ▒██▀▀██░▒██  ▀█▄  ░██   █▌   ░ ▓██▄   ▒██░  ██▒▒██▀▀██░▒██  ▀█▄  ▒██▒▒██░    
+▒██    ▒██         ░▓█▒  ░ ░██▄▄▄▄██ ░▓█ ░██ ░██▄▄▄▄██ ░▓█▄   ▌     ▒   ██▒▒██   ██░░▓█ ░██ ░██▄▄▄▄██ ░██░▒██░    
+▒██▒   ░██▒ ██▓    ░▒█░     ▓█   ▓██▒░▓█▒░██▓ ▓█   ▓██▒░▒████▓    ▒██████▒▒░ ████▓▒░░▓█▒░██▓ ▓█   ▓██▒░██░░██████▒
+░ ▒░   ░  ░ ▒▓▒     ▒ ░     ▒▒   ▓▒█░ ▒ ░░▒░▒ ▒▒   ▓▒█░ ▒▒▓  ▒    ▒ ▒▓▒ ▒ ░░ ▒░▒░▒░  ▒ ░░▒░▒ ▒▒   ▓▒█░░▓  ░ ▒░▓  ░
+░  ░      ░ ░▒      ░        ▒   ▒▒ ░ ▒ ░▒░ ░  ▒   ▒▒ ░ ░ ▒  ▒    ░ ░▒  ░ ░  ░ ▒ ▒░  ▒ ░▒░ ░  ▒   ▒▒ ░ ▒ ░░ ░ ▒  ░
+░      ░    ░       ░ ░      ░   ▒    ░  ░░ ░  ░   ▒    ░ ░  ░    ░  ░  ░  ░ ░ ░ ▒   ░  ░░ ░  ░   ▒    ▒ ░  ░ ░   
+       ░     ░                   ░  ░ ░  ░  ░      ░  ░   ░             ░      ░ ░   ░  ░  ░      ░  ░ ░      ░  ░
+             ░                                          ░                                                         
+
+<h1 class="text-dark-red">Hey! Welcome to my little corner of the web.</h1> 
 type 'help' to see the list of available commands
 type 'linkedin' to visit my linkedin
 type 'github' to view my projects

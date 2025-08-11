@@ -19,13 +19,13 @@
   },
 "colors": {
   "light": {
-    "background": "#F0E8FF",    
-    "foreground": "#2C1A47",    
-    "yellow": "#FFC857",        
-    "green": "#6FCF97",         
-    "gray": "#8A8D91",          
-    "blue": "#4A90E2",          
-    "red": "#FF6B6B"            
+    "background": "#F9F9FB",    
+    "foreground": "#1A1A1A",    
+    "yellow": "#FFB400",        
+    "green": "#00A676",         
+    "gray": "#7A7A7A",          
+    "blue": "#0066CC",          
+    "red": "#E63946"            
   },
   "dark": {
     "background": "#1F1B24",    
@@ -35,6 +35,6 @@
     "gray": "#6B6F77",         
     "blue": "#597EF7",         
     "red": "#FF5C5C"           
-    }
+  }
   }
 }
